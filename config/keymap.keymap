@@ -9,10 +9,6 @@
     tapping-term-ms = <150>;
 };
 
-&trackball {
-    scroll-layers = <5>;
-};
-
 / {
     combos {
         compatible = "zmk,combos";
