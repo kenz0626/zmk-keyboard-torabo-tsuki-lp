@@ -16,6 +16,5 @@
         power-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | NRF_GPIO_DRIVE_H0H1)>;
 
         automouse-layer = <4>;
-        scroll-layers = <5>;
     };
 };
