@@ -7,10 +7,40 @@
     combos {
         compatible = "zmk,combos";
 
-        bt_clear {
-            bindings = <&bt BT_CLR>;
-            key-positions = <28 29>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <26 27>;
             layers = <2>;
+        };
+
+        shift_tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <27 28>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <13 14>;
+        };
+
+        double_quotation {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <35 36>;
+        };
+
+        single_quotation {
+            bindings = <&kp SQT>;
+            key-positions = <34 35>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <34 33>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <32 33>;
         };
     };
 
